@@ -9,7 +9,8 @@ import { Contact } from './models/Contact'
 initDb({
   "host": "127.0.0.1",
   "user": "backend",
-  "database": "backend"
+  "database": "backend",
+  "password": "123",
 })
 
 Contact.pool = getPool()
